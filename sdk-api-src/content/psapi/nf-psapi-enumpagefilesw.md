@@ -67,7 +67,7 @@ Calls the callback routine for each installed pagefile in the system.
 ### -param pCallBackRoutine [out]
 
 A pointer to the routine called for each pagefile. For more information, see 
-      <a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>.
+      <a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbackw">EnumPageFilesProc</a>.
 
 ### -param pContext [in]
 
@@ -107,7 +107,7 @@ Programs that must run on earlier versions of Windows as well as Windows 7 and 
 
 ## -see-also
 
-<a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbacka">EnumPageFilesProc</a>
+<a href="/windows/desktop/api/psapi/nc-psapi-penum_page_file_callbackw">EnumPageFilesProc</a>
 
 
 
